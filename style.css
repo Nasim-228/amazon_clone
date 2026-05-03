@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo..box */
+
+.logo{
+    width: 100px;
+    height: 49px;
+    padding: 1px 8px 0 6px;
+    background-image: url(./images/logo.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 1px 0 1px 8px;
+    
+}
+
+.logo:hover{
+    border-color: white;
+}
+
+/* delivery...box */
+
+.delivery{
+    display: flex;
+    border: 1px solid black;
+    width: 94.547px;
+    height: 48px;
+    border-radius: 2px;
+}
+.delivery:hover{
+    border-color: white;
+}
+.fa-location-dot{
+    margin: 19px 2px 0 0;
+}
+.loc-text{
+    font-size:medium;
+}
+.loc-text1{
+    font-size: small;
+    color: #ccc;
+}
+
+/* flag....box */
+
+.flag-box{
+    display: flex;
+    width: 47.375px;
+    height: 50px;
+    align-items: center;
+    border: 1px solid black; 
+    padding: 0 1px;
+    border-radius: 2px;
+}
+.flag-box:hover{
+    border-color: white;
+}
+.flag{
+    background-image: url(./images/flag.png);
+    width: 24px;
+    height: 18px;
+    background-size: 24px 18px;   
+}
+.flag-text{
+    font-weight: bold;
+}
+
+/* Account....box */
+
+.account-box{
+    width: 123.531px;
+    height: 55px;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.account-box:hover{
+    border-color: white;
+}
+.account-text1{
+    font-size:small;
+}
+.account-text2{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Return....box */
+
+.return-box{
+    width: 76.95px;
+    height: 50px;
+    padding: 0 7px 2px 7px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 2px;
+}
+.return-box:hover{
+    border-color: white;
+}
+.return-text1{
+    font-size: small;
+}
+.return-text2{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Cart-box */
+
+.cart-box{
+    width: 84px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 0px 0px 3px;
+}
+.cart-box:hover{
+    border-color: white;
+}
+.fa-cart-shopping{
+    font-size: 28px;
+}
