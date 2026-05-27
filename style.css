@@ -180,3 +180,24 @@
     color: black;
     font-size: large;
 }
+
+/* head-box */
+
+
+.header2{
+  display: flex;
+  background-color: #1a2a3a;
+  height: 39px;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.header2 > * {
+    padding: 8px 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.header2 >*:hover{
+    border-color: white;
+}
