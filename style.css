@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    
 }
+
+
 .header{
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -188,9 +191,11 @@
   display: flex;
   background-color: #1a2a3a;
   height: 39px;
+  width: 100vw;
   justify-content: flex-start;
   gap: 10px;
   padding-left: 10px;
+  
 }
 
 .header2 > * {
@@ -201,3 +206,89 @@
 .header2 >*:hover{
     border-color: white;
 }
+
+/* .........product_parent....... */
+
+.product_grandparent{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    background-color: #E3E6E6;
+}
+
+.product_parent{
+    padding-top: 250px;
+    background: linear-gradient(to bottom,
+            rgba(227, 230, 230, 0) 60%,
+            rgba(227, 230, 230, 0.6) 80%,
+            #E3E6E6 100%),
+        url('https://m.media-amazon.com/images/I/71QcgptqadL._SX3000_.jpg');
+    height: auto;
+    width: 1600px;
+    background-size: 1600px 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    
+}
+
+/* .....product...... */
+
+
+.product_parent > *{
+    width: 370px;
+    height: 420px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px 15px;
+    
+}
+
+.ps5{
+    padding-top: 10px;
+    height: 300.7px;
+    width: 303.7px;
+    object-fit: cover;
+}
+
+.same_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 7px 7px;
+}
+
+.same_card img{
+    height: 100px;
+    width: 160px;
+    display: block;
+}
+
+.same_card > div{
+    height: 115px;
+    width: 155px;
+}
+
+.blue_span{
+    color: #2162a1; font-size: 13px;
+}
+
+.black_span{
+    font-size: 12px;
+    color: #0f1111;
+    font-weight: 200;
+}
+
+
+
+ 
+
+
+
+
