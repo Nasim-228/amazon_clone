@@ -285,10 +285,24 @@
     font-weight: 200;
 }
 
+.dif_card{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
 
-
- 
-
-
-
+.top{
+    width: 350px;
+    height: 150.41px;
+}
+.top img{
+    width: 350px;
+    height: 145.41px;
+    display: block;
+}
+.bottom img{
+    width: 113px;
+    height: 75px;
+    display: block;
+}
 
